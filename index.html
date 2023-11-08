@@ -4,6 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>21-01 Etch A Sketch</title>
+    <link rel="icon" href="21-01-32x32.png">
+    <script src="sketch.js" defer></script>
+    <style>
+        #canvas{
+            border: 1px solid red;
+            display: flex;
+            width: auto;
+            height: auto;
+            flex-wrap: wrap;
+        }
+
+        .pixels{
+            background-color: blue;
+            height: 20px;
+            width: 20px;
+        }
+    </style>
+</head>
 <body>
+    <input type="number" id="canvas-width" placeholder="width" value="16">
+    <input type="number" id="canvas-height" placeholder="height" value="16">
+    <div id="canvas">
+
+    </div>
 </body>
 </html>
